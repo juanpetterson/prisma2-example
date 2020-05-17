@@ -1,0 +1,43 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add @prisma/client
+
+PATH: 
+  C:\Python27\;C:\Python27\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Yarn\bin\;C:\Users\juanp\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git\cmd;C:\Program Files\MariaDB 10.4\bin;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Android\Sdk\platform-tools;C:\Android\Sdk\tools;;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\juanp\AppData\Local\Microsoft\WindowsApps;C:\Users\juanp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\juanp\AppData\Local\Yarn\bin;C:\Users\juanp\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\tools\dart-sdk\bin;C:\Users\juanp\AppData\Roaming\Pub\Cache\bin;C:\Users\juanp\AppData\Local\Google\Cloud SDK\google-cloud-sdk\bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.13.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\www\code-drops\prisma2-example\node_modules\@prisma\cli\query-engine-windows.exe'
+
+npm manifest: 
+  {
+    "name": "prisma2-example",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@prisma/cli": "^2.0.0-beta.5",
+      "@types/node": "^14.0.1",
+      "ts-node": "^8.10.1",
+      "typescript": "^3.9.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
